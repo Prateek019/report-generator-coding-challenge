@@ -77,6 +77,11 @@ This is a report generation application that can read input from various sources
     <p>1. <b>Factory Design Pattern</b> : To have a factory method return the report metrics generation instance of the class based on the type of report needed. The report is generated for 2 params right now, contractId & geozone (as per the requirement). System has been designed to extend it to support multiple params to with minimal changes</p>
     <p>2. <b>Strategy Design Pattern</b> : To have a single generic interface with multiple implementations eg: InputService, ReportService to support input from multiple sources and report generation for respective multiple sources. Currently to display this capability 2 sources have been mentioned, consoleBased & fileBased, but implementation has been done only for console based. A placeholder class has been added to just show the scalability of the system for multiple sources.</p>
     </div>
+    <div>
+    <h4>Note:</h4>
+    <p>1. Since its explicitly mentioned not to use any 3rd Party library except Junit hence commonly used 3rd party libraries including <b>spring-boot</b>, <b>apache-commons</b>, SLF4J (logger) have not been used in this project.</p>
+    <p>2. Currently, all logs/messages are being written to console using System.out.println </p>
+    </div>
 </div>
 
 <div>

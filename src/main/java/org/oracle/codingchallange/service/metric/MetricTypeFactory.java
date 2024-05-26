@@ -1,5 +1,8 @@
 package org.oracle.codingchallange.service.metric;
 
+import org.oracle.codingchallange.service.metric.impl.ContractIdBased;
+import org.oracle.codingchallange.service.metric.impl.GeoZoneBased;
+
 import static org.oracle.codingchallange.constants.Constants.CONTRACTID;
 import static org.oracle.codingchallange.constants.Constants.GEOZONE;
 

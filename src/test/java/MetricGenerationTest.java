@@ -1,7 +1,7 @@
 import org.junit.Test;
 import org.oracle.codingchallange.model.Metric;
-import org.oracle.codingchallange.service.metric.ContractIdBased;
-import org.oracle.codingchallange.service.metric.GeoZoneBased;
+import org.oracle.codingchallange.service.metric.impl.ContractIdBased;
+import org.oracle.codingchallange.service.metric.impl.GeoZoneBased;
 import org.oracle.codingchallange.service.metric.MetricService;
 
 import static org.junit.Assert.*;

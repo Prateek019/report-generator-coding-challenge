@@ -1,6 +1,7 @@
-package org.oracle.codingchallange.service.input;
+package org.oracle.codingchallange.service.input.impl;
 
 import org.oracle.codingchallange.repository.Store;
+import org.oracle.codingchallange.service.input.InputService;
 
 import java.util.Scanner;
 

@@ -3,7 +3,7 @@ package org.oracle.codingchallange;
 import org.oracle.codingchallange.model.InputData;
 import org.oracle.codingchallange.repository.Store;
 import org.oracle.codingchallange.repository.impl.CustomerInputDataStoreImpl;
-import org.oracle.codingchallange.service.input.ConsoleInputService;
+import org.oracle.codingchallange.service.input.impl.ConsoleInputService;
 import org.oracle.codingchallange.service.input.InputService;
 import org.oracle.codingchallange.service.report.ReportService;
 import org.oracle.codingchallange.service.report.impl.ConsoleReport;

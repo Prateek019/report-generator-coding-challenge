@@ -1,7 +1,8 @@
-package org.oracle.codingchallange.service.metric;
+package org.oracle.codingchallange.service.metric.impl;
 
 import org.oracle.codingchallange.model.InputData;
 import org.oracle.codingchallange.model.Metric;
+import org.oracle.codingchallange.service.metric.MetricService;
 import org.oracle.codingchallange.utils.ReportGenerationUtils;
 
 import java.util.*;
