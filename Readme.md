@@ -1,8 +1,9 @@
 <h2>Report Generator</h2>
 
 <h4>
-This is a report generation application that can read input from various sources and write the report output to the respective sources
+This is a report generation application that can read input from various sources and write the report output to the respective sources.
 </h4>
+<h5>Currently its implementation is restricted to console input & output but it has been kept modular & extendable to extend it for other sources with minimal changes</h5>
 
 <div>
 <h3> Tech specifications </h3>
