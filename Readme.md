@@ -71,7 +71,7 @@ This is a report generation application that can read input from various sources
 <div>
 <h3>Development details</h3>
     <div>
-    <h2>Design Patterns used</h2>
+    <h4>Design Patterns used</h4>
     <p>1. <b>Factory Design Pattern</b> : To have a factory method return the report metrics generation instance of the class based on the type of report needed. The report is generated for 2 params right now, contractId & geozone (as per the requirement). System has been designed to extend it to support multiple params to with minimal changes</p>
     <p>2. <b>Strategy Design Pattern</b> : To have a single generic interface with multiple implementations eg: InputService, ReportService to support input from multiple sources and report generation for respective multiple sources. Currently to display this capability 2 sources have been mentioned, consoleBased & fileBased, but implementation has been done only for console based. A placeholder class has been added to just show the scalability of the system for multiple sources.</p>
     </div>
