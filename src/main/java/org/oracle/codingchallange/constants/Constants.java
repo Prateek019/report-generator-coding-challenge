@@ -31,4 +31,5 @@ public interface Constants {
     String AVG_BUILD_DURATION_FOR_GEOZONE = "The average buildduration for each geozone";
 
     String ENTER_INPUT_LINES_MESSAGE = "Enter input lines. Enter empty line to stop...";
+    String GENERATED_REPORT = "*************** REPORT ****************";
 }

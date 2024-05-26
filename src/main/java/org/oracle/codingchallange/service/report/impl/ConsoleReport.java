@@ -9,10 +9,11 @@ import org.oracle.codingchallange.service.report.ReportService;
 
 import java.util.*;
 
+import static org.oracle.codingchallange.constants.Constants.GENERATED_REPORT;
 import static org.oracle.codingchallange.constants.Constants.METRIC_PRINT_FORMATTER;
 
 public class ConsoleReport implements ReportService {
-    public static List<ReportParamEnum> PARAMS_FOR_REPORT_GENERATION = Arrays.asList(ReportParamEnum.GEOZONE, ReportParamEnum.CONTRACTID);
+    public static List<ReportParamEnum> PARAMS_FOR_REPORT_GENERATION = Arrays.asList(ReportParamEnum.CONTRACTID, ReportParamEnum.GEOZONE);
     Store store;
 
     MetricTypeFactory metricTypeFactory;
@@ -50,6 +51,7 @@ public class ConsoleReport implements ReportService {
     @Override
     public void printReport() {
         if (this.metrics != null && !this.metrics.isEmpty()) {
+            System.out.println(GENERATED_REPORT);
             for (Metric metric : this.metrics) {
                 System.out.println(String.format(METRIC_PRINT_FORMATTER, metric.getMetadata(), metric.getMetricData()));
             }

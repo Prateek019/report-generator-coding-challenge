@@ -55,10 +55,11 @@ This is a report generation application that can read input from various sources
 <h3>Sample Output</h3>
 <div>
     <p>
+        *************** REPORT **************** <br>
+        The number of unique customerId for each contractId : {2346=2, 2345=3} <br>
         The number of unique customerId for each geozone : {eu_west=2, us_west=2, us_east=1} <br>
         The list of unique customerId for each geozone : {eu_west=3244132,3244332, us_west=1233456,1223456, us_east=2343225} <br>
         The average buildduration for each geozone : {eu_west=4222.0s, us_west=2216.0s, us_east=3445.0s} <br>
-        The number of unique customerId for each contractId : {2346=2, 2345=3} <br>
     </p>
 </div>
 </div>
