@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.oracle.codingchallange</groupId>
+    <groupId>org.oracle.codingchallenge</groupId>
     <artifactId>report-generator</artifactId>
     <version>1.0-RELEASE</version>
 
@@ -35,7 +35,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>org.oracle.codingchallange.Main</mainClass>
+                            <mainClass>org.oracle.codingchallenge.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

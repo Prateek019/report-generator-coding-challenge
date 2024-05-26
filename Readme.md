@@ -80,7 +80,8 @@ This is a report generation application that can read input from various sources
     <div>
     <h4>Note:</h4>
     <p>1. Since its explicitly mentioned not to use any 3rd Party library except Junit hence commonly used 3rd party libraries including <b>spring-boot</b>, <b>apache-commons</b>, SLF4J (logger) have not been used in this project.</p>
-    <p>2. Currently, all logs/messages are being written to console using System.out.println </p>
+    <p>2. Currently, all logs/messages are being written to console using System.out.println. </p>
+    <p>3. Output format has been kept very basic as it was not specified. </p>
     </div>
 </div>
 

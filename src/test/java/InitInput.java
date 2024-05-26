@@ -1,11 +1,11 @@
 import org.junit.BeforeClass;
-import org.oracle.codingchallange.model.InputData;
-import org.oracle.codingchallange.utils.MappingUtil;
+import org.oracle.codingchallenge.model.InputData;
+import org.oracle.codingchallenge.utils.MappingUtil;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.oracle.codingchallange.constants.Constants.NEW_LINE;
+import static org.oracle.codingchallenge.constants.Constants.NEW_LINE;
 
 public class InitInput {
 

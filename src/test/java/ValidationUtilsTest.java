@@ -1,8 +1,8 @@
 import org.junit.Test;
-import org.oracle.codingchallange.utils.ValidationUtils;
+import org.oracle.codingchallenge.utils.ValidationUtils;
 
 import static org.junit.Assert.*;
-import static org.oracle.codingchallange.constants.Constants.*;
+import static org.oracle.codingchallenge.constants.Constants.*;
 
 public class ValidationUtilsTest extends InitInput {
 
