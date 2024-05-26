@@ -3,8 +3,7 @@ package org.oracle.codingchallenge.service.metric;
 import org.oracle.codingchallenge.service.metric.impl.ContractIdBased;
 import org.oracle.codingchallenge.service.metric.impl.GeoZoneBased;
 
-import static org.oracle.codingchallenge.constants.Constants.CONTRACTID;
-import static org.oracle.codingchallenge.constants.Constants.GEOZONE;
+import static org.oracle.codingchallenge.constants.Constants.*;
 
 /**
  * Metric service factory to get each metric generation type class
@@ -30,7 +29,7 @@ public class MetricTypeFactory {
                 break;
             }
             default : {
-                metricService = null;
+                System.out.println(METRIC_TYPE_NOT_FOUND);
                 break;
             }
         }

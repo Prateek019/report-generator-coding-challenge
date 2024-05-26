@@ -4,6 +4,7 @@ import org.oracle.codingchallenge.model.InputData;
 import org.oracle.codingchallenge.model.Metric;
 import org.oracle.codingchallenge.model.ReportParamEnum;
 import org.oracle.codingchallenge.repository.Store;
+import org.oracle.codingchallenge.service.metric.MetricService;
 import org.oracle.codingchallenge.service.metric.MetricTypeFactory;
 import org.oracle.codingchallenge.service.report.ReportService;
 
@@ -39,7 +40,10 @@ public class ConsoleReport implements ReportService {
         if (this.store != null) {
             List<InputData> storeDataList = this.store.read();
             for (ReportParamEnum reportParamEnum : PARAMS_FOR_REPORT_GENERATION) {
-                metrics.addAll(metricTypeFactory.getMetricGenerator(reportParamEnum.name()).getMetric(storeDataList));
+                MetricService metricService = metricTypeFactory.getMetricGenerator(reportParamEnum.name());
+                if (metricService != null) {
+                    metrics.addAll(metricService.getMetric(storeDataList));
+                }
             }
         }
     }

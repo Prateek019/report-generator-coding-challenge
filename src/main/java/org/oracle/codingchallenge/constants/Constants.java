@@ -29,7 +29,7 @@ public interface Constants {
     String NO_OF_UNIQUE_CUSTOMER_IDS_FOR_GEOZONE = "The number of unique customerId for each geozone";
     String LIST_OF_UNIQUE_CUSTOMER_IDS_FOR_GEOZONE = "The list of unique customerId for each geozone";
     String AVG_BUILD_DURATION_FOR_GEOZONE = "The average buildduration for each geozone";
-
+    String METRIC_TYPE_NOT_FOUND = "Metric Report type not found, system will exit";
     String ENTER_INPUT_LINES_MESSAGE = "Enter input lines. Enter empty line to stop...";
     String GENERATED_REPORT = "*************** REPORT ****************";
 }
